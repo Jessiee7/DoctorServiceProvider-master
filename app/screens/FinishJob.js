@@ -9,7 +9,6 @@ import { height, width } from '../assets/constants/ScreenDimensions'
 import SubTotalBlock from '../components/SubTotalBlock'
 import { ScrollView } from 'react-native-gesture-handler'
 import AddtionalCharges from '../components/AddtionalCharges'
-import BlockTwo from '../components/BlockTwo'
 import BlockOne from '../components/BlockOne'
 const FinishJob = ({navigation}) => {
  const source= require('../assets/Images/ArrowWhite.png')
