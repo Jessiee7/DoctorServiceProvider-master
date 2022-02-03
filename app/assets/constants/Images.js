@@ -34,7 +34,7 @@ export const Images = {
     newbell: require('../Images/newbell.png'),
     stars: require('../Images/stars.png'),
     feedbackblock: require('../Images/feedbackblock.png'),
-
+filter:require('../Images/Filter.png')
 
 
 }
