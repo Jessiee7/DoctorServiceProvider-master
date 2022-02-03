@@ -9,11 +9,12 @@ import HeaderUser from '../components/HeaderUser'
 import ServiceBlock from '../components/ServiceBlock'
 import SubTotalBlock from '../components/SubTotalBlock'
 
+
 const JobDetails = ({navigation}) => {
   
     const [modalVisible, setModalVisible] = useState(false);
   
-
+    
 
     return (
 
@@ -31,7 +32,7 @@ const JobDetails = ({navigation}) => {
             <View style={{height:'30%',width:'95%'}}>
             <Pressable onPress={() => {setModalVisible(!modalVisible)
                                 
-                               } }   style={{ alignItems: 'center', justifyContent: 'center', borderTopLeftRadius: 20, borderTopRightRadius: 20, backgroundColor: '#516094', width: width / 1.09, height: '14%', marginTop: '13%', }}>
+                               } }   style={{ alignItems: 'center', justifyContent: 'center', borderTopLeftRadius: 20, borderTopRightRadius: 20, backgroundColor: '#516094', width: width / 1.09, height: '16%', marginTop: '18%', }}>
                 <View style={{ width: '24%', backgroundColor: '#000', height: '10%', borderRadius: 10 }}></View>
             </Pressable>
             </View> 
@@ -60,8 +61,8 @@ const JobDetails = ({navigation}) => {
                     >
                     <Text style={{color: 'blace', fontWeight: 'bold', fontSize: 16}}>Hide Modal</Text>
                     </Pressable>
-                </View> */}
-                    <View style={{ width: '90%', height: height / 12, alignItems: 'center', marginTop: '30%' }}>
+                    </View> */}
+                    <View style={{ width: '90%', height: height / 12, alignItems: 'center', marginTop: '35%' }}>
                         <View style={{ width: '100%', flexDirection: 'row', justifyContent: 'space-evenly', marginBottom: '10%' }} >
                             <Image source={Images.address} style={{ width: 55, height: 55 }} resizeMode='contain' />
                             <Image source={Images.call} style={{ width: 55, height: 55 }} resizeMode='contain' />

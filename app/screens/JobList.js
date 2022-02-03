@@ -33,10 +33,13 @@ const JobList = ({ navigation }) => {
         <Text style={{ color: '#fff', fontSize: 24, fontWeight: 'bold', marginBottom: '1%' }}>{'JOB LIST'}</Text>
       </View>
          
-      <View style={{ borderRadius: 30, width: width, height: height / 1.41, padding: '3%', backgroundColor: '#fff', alignItems: 'center' }}>
+      <View style={{ borderRadius: 30, width: width, height: height / 1.41, padding: '3%', backgroundColor: '#fff', alignItems: 'center',justifyContent:'space-between' }}>
         {/* <View> */}
+        <View style={{height:'10%',width:'100%',flexDirection:'row',justifyContent:'space-between'}}>
        
         <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#C3C3C3', marginHorizontal: '2%', marginVertical: '1%', marginBottom: '2%', alignSelf: 'flex-start' }}>{'October 2021'}</Text>
+        <Image source={Images.filter} resizeMode='contain' style={{width:'30%',marginRight:'5%' }} />
+        </View>
         <ScrollView  showsVerticalScrollIndicator={false} style={{height:'100%',width:'100%',}}>
 
         {/* <DropDownPicker

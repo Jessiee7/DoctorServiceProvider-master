@@ -18,7 +18,7 @@ const JobListComponent = ({navigate,stars ,nameLft}) => {
             <Text style={styles.textGray}>{'12/2, XYZ Colony, Indore (M.P.)'}</Text>
             <View style={{flexDirection: 'row', width: width/1.1 , marginTop: '5%'}}>
                 <CustomeButton  name={'Cancel'} style={{ backgroundColor: '#ECF0F3', width: width / 3.5, height: height / 20, borderWidth: 0 }} titleStyle={{ color: '#000' }} />
-                <CustomeButton name={'Accept'} style={{ width: width / 3.5, height: height / 20 , marginStart: 90}} />
+                <CustomeButton name={'Accept'} style={{ backgroundColor: '#ECF0F3', width: width / 3.5, height: height / 20 ,borderWidth:0, marginStart: 90}}  titleStyle={{ color: '#000' }} />
 
             </View>
         </TouchableOpacity>
